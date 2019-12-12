@@ -1,0 +1,114 @@
+@import 'col/col.css';
+
+@media screen and (max-width: 1200px) {
+    .feed-back__img{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .author__image {
+        margin: 0 auto;
+    }
+
+    .author__img {
+        display: block;
+        max-width: 90%;
+    }
+
+    .author__title {
+        font-size: 24px;
+    }
+
+    .author__desc {
+        font-size: 16px;
+    }
+
+    .author__name {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .author__img {
+        display: block;
+        max-width: 70%;
+        margin-bottom: 25px;
+    }
+
+    .header-content__sub-title {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .header-content__title {
+        font-size: 52px;
+        margin-bottom: 20px;
+    }
+
+    .header-content__price {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .feed-back{
+        flex-direction: column;
+    }
+    .md-justify-center {
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+    }
+    .md-mg-b-15{
+        margin-bottom: 15px;
+    }
+    .md-mg-b-30{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .callme {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        margin: 15px 0;
+    }
+
+    .menu__call-me {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .header-content__title {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .sm-justify-center {
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+    }
+    .main-menu__title , .menu-product__buy{
+        margin-bottom: 15px;
+    }
+    .sm-mg-b-15{
+        margin-bottom: 15px;
+    }
+    .sm-mg-b-30{
+        margin-bottom: 30px;
+    }
+
+    .footer_menu{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+}

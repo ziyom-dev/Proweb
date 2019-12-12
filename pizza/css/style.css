@@ -1,0 +1,245 @@
+@import 'root.css';
+
+.center{
+    margin: 0 auto;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background: url(../images/header_bg.jpg) no-repeat center center /cover;
+    color: white;
+}
+
+header div nav {
+    margin-top: 15px;
+}
+
+.logo {
+    display: inline-block;
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: var(--f700);
+}
+
+.header-menu a {
+    display: inline-block;
+    color: var(--white);
+    font-family: var(-f400);
+}
+
+.number {
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: var(--f400);
+    margin-right: 30px;
+}
+
+.re-call {
+    border-radius: 30px;
+    background: var(--green);
+    color: var(--white);
+    max-width: 200px;
+    padding: 20px 25px;
+    font-size: 16px;
+    font-family: var(--f400);
+    text-align: center;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 72px;
+    font-family: var(--f900);
+    color: var(--white);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.header-about {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: var(--white);
+    margin-bottom: 15px;
+    font-family: var(--f400);
+}
+
+.header-desc {
+    color: var(--gray_light);
+    margin-bottom: 30px;
+}
+
+.header-price {
+    font-size: 60px;
+    font-family: var(--f100);
+    background: var(--green);
+    color: var(--white);
+    padding: 27px 90px;
+    max-width: 366px;
+}
+
+/* main */
+
+.director {
+    max-width: 1140px;
+    width: 100%;
+    margin-top: 110px;
+}
+
+.about-girl {
+    max-width: 730px;
+}
+
+.about-girl h2 {
+    color: var(--green);
+    margin-bottom: 65px;
+    font-family: var(--f700);
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.about-girl p {
+    color: var(--gray);
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.about-girl :last-child {
+    font-family: var(--f700);
+    font-size: 24px;
+}
+
+.menu {
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.menu-logo {
+    color: var(--green_light);
+    text-transform: uppercase;
+    font-family: var(--f700);
+    font-size: 36px;
+    padding: 90px 0 50px 0;
+}
+
+.pizza-info {
+    margin-bottom: 50px;
+}
+
+.pizza-img {
+    margin-right: 30px;
+}
+
+.pizza-name {
+    font-family: var(--f700);
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--gray);
+    margin-bottom: 35px;
+}
+
+.ingredients {
+    color: var(--gray_light);
+    font-family: var(--f400);
+    font-size: 14px;
+}
+
+.price {
+    text-align: end;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.col-3 p {
+    font-family: var(--f700);
+    padding: 30px 0;
+    color: var(--gray);
+    font-size: 30px;
+}
+
+.col-3 p span {
+    font-family: var(--f300);
+    text-align: center;
+    color: var(--gray_light);
+    font-size: 18px;
+}
+
+.order {
+    border-radius: 30px;
+    background: var(--green);
+    color: var(--white);
+    max-width: 200px;
+    padding: 20px 25px;
+    font-size: 16px;
+    font-family: var(--f400);
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.fb-img {
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-family: var(--f700);
+    color: var(--gray);
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.fb {
+    max-width: 350px;
+}
+
+.fb p {
+    color: var(--gray);
+    font-family: var(--f400);
+    font-size: 14px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 100px;
+    background: black;
+}
+
+footer div nav {
+    margin-top: 45px;
+}
+
+.adv p {
+    color: var(--gray);
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+
+.card-image {
+    position: relative;
+}
+
+.card-image p {
+    position: absolute;
+    bottom: 65%;
+    left: 8%;
+    padding: 20px 9px;
+    font-size: 17px;
+    font-family: var(--f700);
+    background: var(--green);
+    border: 0px var(--green) solid;
+    border-radius: 50px;
+    color: var(--white);
+}
+
+.card-image:hover p {
+    opacity: 0;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}

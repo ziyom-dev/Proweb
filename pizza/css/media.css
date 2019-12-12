@@ -1,0 +1,164 @@
+@import 'root.css';
+
+/* XL */
+@media(max-width: 1200px) {
+    .col-xl-1 {
+        width: var(--col-1);
+    }
+}
+
+/* LG */
+@media(max-width: 992px) {
+    .col-lg-8 {
+        width: var(--col-8);
+    }
+
+    .header-title {
+        font-size: 60px;
+    }
+
+    .header-about {
+        font-size: 15px;
+    }
+
+    .header-desc {
+        margin-bottom: 10px;
+    }
+
+    .header-price {
+        font-size: 45px;
+        padding: 21px 80px;
+        max-width: 366px;
+    }
+
+    /* MD */
+    @media(max-width:768px) {
+        #d-md-none {
+            display: none;
+        }
+
+        .header-title {
+            text-align: center;    
+            font-size: 50px;
+        }
+
+        .header-about {
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .header-desc {
+            text-align: center;
+            margin-bottom: 8px;
+        }
+
+        .header-price {
+            text-align: center;
+            font-size: 35px;
+            padding: 15px 70px;
+            max-width: 300px;
+        }
+        .aic-md{
+            align-items: center;
+            justify-content: center;
+        }
+        main {
+            padding: 10px;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        .about-girl h2 {
+            margin-bottom: 45px;
+            font-size: 28px;
+        }
+
+        .about-girl p {
+            line-height: 30px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .about-girl :last-child {
+            font-family: var(--f700);
+            font-size: 18px;
+        }
+
+        .director-img {
+            width: 300px;
+            height: 400px;
+        }
+
+        .menu {
+            margin-top: 70px;
+            margin-bottom: 30px;
+        }
+
+        .pizza-img {
+            width: 300px;
+            height: 200px;
+        }
+
+        .pizza-name {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        .ingredients {
+            font-size: 10px;
+        }
+        .col-3 p {
+            font-family: var(--f700);
+            padding: 15px 0;
+            color: var(--gray);
+            font-size: 18px;
+        }
+        
+        .col-3 p span {
+            font-family: var(--f300);
+            text-align: center;
+            color: var(--gray_light);
+            font-size: 12px;
+        }
+        .order {
+            max-width: 150px;
+            padding: 10px 13px;
+            font-size: 13px;
+        }
+        .card-image p {
+            position: absolute;
+            bottom: 65%;
+            left: 4%;
+            padding: 20px 9px;
+            font-size: 17px;
+        }
+        .fb-img {
+            margin-bottom: 20px;
+            width: 200px;
+            height: 200px;
+        }
+        .fb {
+            max-width: 200px;
+        }
+    }
+
+    /* SM */
+    @media(max-width: 576px) {
+        .col-sm-12 {
+            width: var(--col-12);
+        }
+
+
+    }
+
+    /* XS */
+    @media(max-width: 320px) {
+        .col-xs-12 {
+            width: var(--col-12);
+        }
+
+        .d-none {
+            display: none;
+        }
+    }
